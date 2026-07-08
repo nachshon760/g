@@ -1,6 +1,7 @@
 {
   "name": "boti-api-server",
   "version": "1.0.0",
+  "description": "Boti API Proxy Server",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
@@ -11,7 +12,9 @@
     "axios": "^1.7.2",
     "googleapis": "^140.0.0",
     "dotenv": "^16.4.5",
-    "crypto": "^1.0.1",
     "cors": "^2.8.5"
+  },
+  "engines": {
+    "node": ">=18"
   }
 }
